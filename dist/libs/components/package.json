@@ -1,0 +1,11 @@
+{
+  "name": "@test/components",
+  "version": "0.0.1",
+  "main": "./components.umd.js",
+  "module": "./components.esm.js",
+  "typings": "./index.d.ts",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "17.0.1"
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
+import { Components } from '@test/components';
 
 export function App() {
   return (
@@ -139,7 +140,7 @@ export function App() {
 
       <header className="flex">
         <Logo width="75" height="75" />
-        <h1>Welcome to test!</h1>
+        <Components />
       </header>
       <main>
         <h2>Resources &amp; Tools</h2>
